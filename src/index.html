@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+</head>
+<body>
+    <h1>FRONT-END EXECUTION TEST2</h1>
+    
+    <script src="/public/javascript/script.js" type="module">
+        fetch('/api/users')
+        .then(response => response.json())
+        .then(users => console.log(users[0].name)); //it's return a array.
+    </script>
+
+</body>
+</html>

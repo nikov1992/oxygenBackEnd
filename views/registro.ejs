@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GYMPASS</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.css">
+<body>
+  <div class="cuerpo">
+    
+    <h1 class="text-center p-4">ANIMAL</h1>
+    <h2 class="text-center p-4">GYM</h1>
+
+
+    <div class="container fluid">
+      <div class="formularios">
+        <div class="col-4 p-3 justify">
+          <form action="/validar" class="formulario__register" method="POST">
+    
+            <div class="mb-4">
+              <h3 class="text-center text-light">ALTA DE USUARIO </h3>
+
+              <div class="mb-3">
+                <!-- <label class="form-label text-light ">ID</label>
+                <input id="id" placeholder="juanP@gmail.com" name="id" class="form-control" required>
+              </div> -->
+      
+              <label class="form-label text-light ">Nombre completo</label>
+              <input id="Name" placeholder="Juan Perez" type="text" name="Name" class="form-control" required>
+            </div>
+    
+            <div class="mb-3">
+              <label class="form-label text-light ">Correo electronico</label>
+              <input id="Email" placeholder="juanP@gmail.com" name="Email" class="form-control" required>
+            </div>
+    
+            <div class="mb-3">
+              <label class="form-label text-light">Usuario</label>
+              <input id="User" placeholder="JuanPerez32" type="text" name="User" class="form-control" required>
+            </div>
+    
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label text-light">Password</label required>
+              <input id="Password" name="Password" type="password" class="form-control">
+            </div>
+    
+            <button id="btn__registrarse" class="btn btn-primary">Cargar</button>
+          </form>
+        </div>
+  
+        <!-- con este col-4 lo achico al formulario -->
+        <form class="col-4 p-3 text-light" action="../../desingBytes/ProyectoLoginPage/login/validar.php" method="post">
+          <div class="mb-3">
+            <h3 class="text-center text-light">LOGIN </h3>
+            <label for="exampleInputEmail1" class="form-label">Usuario</label>
+            <input name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-light">Constrasena</label>
+            <input name="contrasena" type="password" class="form-control" id="exampleInputPassword2" required>
+          </div>
+          <button type="submit" class="btn btn-success">Ingresar</button>
+        </form>
+      </div>
+  
+     
+    </div>
+
+    
+
+
+  </div>
+
+<!-- LOGICA BOOTSTRAP JS -->
+  <script src="./baseDeDatos/assets/script.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

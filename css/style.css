@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "spray";
+    src: url(/fonts/animal2.ttf);
+  }
+
+  @font-face {
+    font-family: "gym";
+    src: url(/ProyectoLoginPage/fonts/gym.otf);
+  }
+
+.formularios{
+display: flex;
+justify-content: center;
+/* width: 100%; */
+/* height: 100%; */
+margin: 0 auto;
+font-family: "gym";
+font-size: small;
+}
+
+body{
+  /* background-image: url(../../img/BGtraining2.jpg); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+h1{
+  font-family: "spray";
+  font-size: 180px;
+  color: rgb(231, 255, 17);
+}
+
+h2{
+  font-family: "gym";
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin-top: -130px;
+  margin-left: 300px;
+}
+
+h3{
+  font-family: "gym";
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  
+}
